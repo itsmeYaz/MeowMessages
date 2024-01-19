@@ -6,6 +6,7 @@ const inputEl = document.querySelector("#input-field");
 const addBtn = document.querySelector("#add-button");
 
 addBtn.addEventListener("click", function () {
-  console.log(inputEl.value);
+  let inputValue = inputEl.value;
+  console.log(inputValue);
   inputEl.value = "";
 });
