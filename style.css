@@ -11,7 +11,6 @@ body {
   flex-direction: column;
   max-width: 320px;
   margin: 30px auto;
-  margin-top: 105px;
 }
 
 img {
@@ -63,4 +62,8 @@ ul li {
   text-align: center;
   background-color: #fffdf8;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li:hover {
+  background-color: #ffefbd;
 }
